@@ -1,5 +1,5 @@
 {
-  "name": "scaffold",
+  "name": "App",
   "version": "0.0.1",
   "description": "HTML5 App",
   "main": "require.app.js",

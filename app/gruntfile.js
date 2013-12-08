@@ -71,7 +71,7 @@ module.exports = function (grunt) {
      */
     cordovacli: {
         options: {
-                path: '../www/'
+            path: '../www/'
         },        
         cordova: {
             options: {
@@ -80,6 +80,7 @@ module.exports = function (grunt) {
         },
         create: {
             options: {
+                path: '../'
                 command: 'create',
                 id: 'com.projectscapa.app',
                 name: 'App'
@@ -105,6 +106,7 @@ module.exports = function (grunt) {
         all: {
             src: [ 'jquery','underscore', 'home' ],
             options: {
+                keepRunner: false,
                 specs: ['tests/*.js'],
                 host : 'http://127.0.0.1:8000/',
                 template: require('grunt-template-jasmine-requirejs'),
