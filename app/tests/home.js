@@ -1,4 +1,4 @@
-define(['home'], function(home) {
+define(['home'], function(Home) {
 
 	return describe('Backbone Home :: ', function() {
 

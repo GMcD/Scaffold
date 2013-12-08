@@ -109,7 +109,7 @@ module.exports = function (grunt) {
                 host : 'http://127.0.0.1:8000/',
                 template: require('grunt-template-jasmine-requirejs'),
                 templateOptions: {
-                    requireConfigFile: 'tests/require.jasmine.js'
+                    requireConfigFile: [ 'require.app.js', 'require.jasmine.js' ]
                 }
             }
         }
