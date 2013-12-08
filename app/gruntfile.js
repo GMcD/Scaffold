@@ -80,7 +80,7 @@ module.exports = function (grunt) {
         },
         create: {
             options: {
-                path: '../'
+                path: '../',
                 command: 'create',
                 id: 'com.projectscapa.app',
                 name: 'App'
