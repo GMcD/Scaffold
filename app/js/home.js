@@ -6,8 +6,6 @@ define([ 'jquery', 'underscore', 'backbone', 'text!tpl/homeTemplate.html'],
      */
     var HomeView = Backbone.View.extend({
         el : $('div#stage'),
-        tagName : 'div',
-        className : 'home',
         /*
          * Initialise and render
          */
